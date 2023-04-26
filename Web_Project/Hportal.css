@@ -1,0 +1,118 @@
+body{
+    margin:0px;
+  }
+  .header{
+    background-color: black;
+    width:100%;
+    height:70px;
+    top: 0px;
+  }
+  .header h3{
+    margin-top: 0px;
+    color: rbg(3,49,3);
+    background-color: white;
+    width:12px;
+    border-radius: 100%;
+    padding: 2px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border: 2px solid #008000;
+    display: inline-flex;
+    margin-left: 12%;
+    font-weight: bolder;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    color: #008000;
+    font-weight: 1000;
+  }
+  section h3, p{
+    display: inline-flex;
+  }
+  section p{
+    color: white;
+    padding-left: 5px;
+    margin-right: 50px;
+
+
+  }
+  span{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+   
+  }
+  .header section i{ 
+    margin-right: 20px;
+  }
+  .welcome{
+    background: linear-gradient(176deg, green 70%, rgb(235,232,232) 30%);
+    height: 660px;
+    width: 100%;
+  }
+  marquee{
+    color: yellow;
+    font-weight: bolder;
+    margin-top: 5%;
+    width: 85%;
+
+  }
+  marquee:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-style: double;
+  }
+  .welcome section{
+    margin-left: 12%;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+    width: 38%;
+  }
+  .welcome section h1{
+    font-size: 4em;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  button{
+    width: 85%;
+    padding: 3%;
+    border-radius: 50px;
+    background-color:#2e8b57 ;
+    border: none;
+
+  }
+  button:hover{
+    background-color:#3cb371;
+    border-bottom: 2px solid white;
+  }
+  form{
+    float: right;
+    width: 30%;
+    position: relative;
+    top: -240px;
+
+  }
+  form{
+    display: flex;
+  }
+  fieldset{
+    background-color: white;
+    padding: 40px;
+    padding-left: 50px;
+    padding-right: 60px;
+  }
+  fieldset input{
+    background-color: #E6E6FA;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    padding: 10%;
+   }
+  fieldset button{
+    width: 100%;
+    padding: 10%;
+  }
+  fieldset button a{
+   text-decoration: none; 
+  }
