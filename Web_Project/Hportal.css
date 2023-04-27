@@ -49,14 +49,14 @@ body{
     height: 660px;
     width: 100%;
   }
-  marquee{
+  marquee {
     color: yellow;
     font-weight: bolder;
     margin-top: 5%;
     width: 85%;
 
   }
-  marquee:hover{
+  marquee:hover i{
     text-decoration: underline;
     text-decoration-color: white;
     text-decoration-style: double;
@@ -89,19 +89,24 @@ body{
     float: right;
     width: 30%;
     position: relative;
-    top: -240px;
+    top: -290px;
 
   }
   form{
     display: flex;
   }
-  fieldset{
+
+  .fil1 fieldset{
     background-color: white;
-    padding: 40px;
+    padding: 100%;
     padding-left: 50px;
     padding-right: 60px;
+    padding-bottom: 40%;
+    padding-top: 10%;
+    border: none;
+    
   }
-  fieldset input{
+  .fil1 fieldset input{
     background-color: #E6E6FA;
     border-top-style: hidden;
     border-right-style: hidden;
@@ -109,10 +114,51 @@ body{
     border-bottom-style: hidden;
     padding: 10%;
    }
-  fieldset button{
+ .fil1 fieldset button{
     width: 100%;
     padding: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
-  fieldset button a{
+  .fil1 fieldset button a{
    text-decoration: none; 
   }
+  .fil1 fieldset label i{
+    width: 100%;
+  }
+  .bottonlog{
+    text-align: center;
+  }
+  .forgot{
+    text-decoration: none;
+    text-align: center;
+    color: blue;
+  }
+  .Admission h2{
+    color: grey;
+      padding-top: 20%;
+      text-align: center;
+      margin-left: 30%;
+
+  }
+  .Admission  h1{
+    color: black;
+    padding-top: 1%;
+    text-align: center;
+  }
+  img{
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+  }
+  .Admissionfi fieldset strong{
+    margin-right: 40px;
+  }
+  fieldset{
+    
+  }
+  input{
+    margin-right: 20px;
+
+  }
+  
